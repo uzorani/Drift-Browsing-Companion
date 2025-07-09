@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-
 <html lang="en">
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Privacy Policy – Drift Chrome Extension</title>
-<style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – Drift Chrome Extension</title>
+  <style>
     body {
       font-family: Arial, sans-serif;
       line-height: 1.7;
-      margin: 40px auto;
       max-width: 800px;
+      margin: 40px auto;
       color: #222;
     }
 
@@ -47,68 +47,47 @@
     }
   </style>
 </head>
+
 <body>
-<h1>Privacy Policy</h1>
-<p><strong>Effective Date:</strong> May 15, 2025</p>
-<p>This privacy policy applies to the <strong>Drift</strong> Chrome extension ("the Extension"). Your privacy is
-    important, and this document explains how we collect, use, and handle your data when you use Drift, which provides
-    summarization, voice-to-text input, translation, and AI chat functionalities.</p>
-<h2>1. Data We Collect</h2>
-<p>Drift may collect the following types of user data, but only temporarily for functionality:</p>
-<ul>
-<li><strong>Microphone Input:</strong> If you grant permission, we access your microphone solely to convert your
-      voice into text via the browser’s Speech Recognition API.</li>
-<li><strong>Text Input:</strong> Any manual text you enter (e.g., questions, prompts, notes).</li>
-<li><strong>Google Gemini API Key:</strong> The API key you provide is stored <em>locally</em> on your device and
-      never transmitted elsewhere.</li>
-</ul>
-<h2>2. How We Use Your Data</h2>
-<ul>
-<li><strong>Voice Data:</strong> Microphone input is processed locally in your browser and is never recorded or
-      stored. Audio is used only for immediate transcription.</li>
-<li><strong>Text Data:</strong> Your typed or transcribed inputs are sent securely to the <a href="https://ai.google.dev" rel="noopener" target="_blank">Google Gemini API</a> for processing. Drift does not
-      retain or store this input after the API response is returned.</li>
-<li><strong>API Key:</strong> Your Gemini API key is stored in Chrome’s local extension storage and is only used to
-      authenticate requests to Gemini services. It is never transmitted to any third-party servers other than Google.
-    </li>
-</ul>
-<h2>3. Data Retention</h2>
-<p>We do not store or log any audio, text, or user-provided data beyond the immediate session. All data is discarded
-    immediately after processing is complete. No data is ever uploaded to any external database, server, or analytics
-    service.</p>
-<h2>4. Permissions Disclosure</h2>
-<ul>
-<li><strong>Microphone Access:</strong> Required only for voice-to-text functionality. You can disable this
-      permission at any time through Chrome’s settings.</li>
-<li><strong>Storage Access:</strong> Used only for saving your local preferences such as the Gemini API key. No
-      remote storage or account login is required.</li>
-<li>Active Tab &amp; All URLs: Drift requires temporary access to the content of the currently active tab so it can summarize, translate, or answer questions about webpage text. This access is only granted when you click the Drift extension icon — no background monitoring or collection occurs.</li></ul>
-<h2>5. Third-Party Services</h2>
-<p>Drift uses the <a href="https://ai.google.dev" rel="noopener" target="_blank">Google Gemini API</a> to process user
-    queries and return responses. Your interactions with Gemini are governed by Google’s <a href="https://policies.google.com/privacy" rel="noopener" target="_blank">Privacy Policy</a>.</p>
-<h2>6. User Control</h2>
-<ul>
-<li>You may revoke microphone access at any time in Chrome settings.</li>
-<li>You may remove or reset your API key through the extension settings.</li>
-<li>You are not required to sign up or log in to use Drift.</li>
-</ul>
-<h2>7. Security Measures</h2>
-<p>Drift follows Chrome Web Store’s security model:</p>
-<ul>
-<li>Runs entirely within the Chrome sandbox.</li>
-<li>Handles all data in-memory or local storage.</li>
-<li>Does not inject third-party tracking or analytics tools.</li>
-</ul>
-<h2>8. Children’s Privacy</h2>
-<p>This extension is not intended for use by individuals under the age of 13. We do not knowingly collect personal
-    information from children.</p>
-<h2>9. Changes to This Policy</h2>
-<p>If we make material changes, we will update this page and modify the "Effective Date" above. We encourage users to
-    periodically review this policy for updates.</p>
-<h2>10. Contact</h2>
-<p>If you have questions or concerns about this Privacy Policy or your data, please contact:</p>
-<p>
-    📧 <a href="mailto:driftbycreativepixie@gmail.com">driftbycreativepixie@gmail.com</a><br/>
-</p>
+  <h1>Privacy Policy</h1>
+  <p><strong>Effective Date:</strong> July 9, 2025</p>
+
+  <p>This Privacy Policy explains how the <strong>Drift</strong> Chrome extension ("Drift") handles your data. Drift
+    does <strong>not</strong> collect, store, or transmit any personal information, except as needed to deliver its core
+    functionality.</p>
+
+  <h2>1. What Drift Does</h2>
+  <p>Drift helps you summarize, translate, and ask questions about content on webpages and local files using Google’s
+    Gemini API. To do this, Drift:</p>
+  <ul>
+    <li>Uses your text input or microphone input (only if you grant permission) to create prompts.</li>
+    <li>Temporarily processes this input and sends it to Gemini AI for a response.</li>
+    <li>Stores your Gemini API key <strong>locally</strong> in Chrome’s extension storage to authenticate requests. It
+      is never sent to any other server.</li>
+  </ul>
+
+  <h2>2. What Drift Does NOT Do</h2>
+  <ul>
+    <li>Drift does <strong>not</strong> store or log your text or voice input after it’s used in a prompt.</li>
+    <li>Drift does <strong>not</strong> transmit any data to third-party servers other than Gemini API.</li>
+    <li>Drift does <strong>not</strong> use tracking, analytics, or advertising cookies.</li>
+    <li>Drift does <strong>not</strong> require you to create an account or log in.</li>
+  </ul>
+
+  <h2>3. Microphone Access</h2>
+  <p>If you choose to use voice input, Chrome will request your permission to access your microphone. Drift only uses
+    this to convert speech to text. No audio is recorded or stored.</p>
+
+  <h2>4. Data Security</h2>
+  <p>Your API key and settings are stored securely in Chrome’s local storage. Drift runs entirely in your browser’s
+    sandbox environment and follows Chrome Web Store security best practices.</p>
+
+  <h2>5. Changes</h2>
+  <p>If there are any significant changes to this policy, we will update this page and change the “Effective Date.”</p>
+
+  <h2>6. Contact</h2>
+  <p>If you have questions about this policy, please email: <a
+      href="mailto:driftbycreativepixie@gmail.com">driftbycreativepixie@gmail.com</a></p>
 </body>
+
 </html>
